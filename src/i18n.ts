@@ -30,6 +30,14 @@ export function initI18n() {
             },
           },
         },
+        pl: {
+          translation: {
+            description: {
+              part1: 'i18n znajdziemy w pliku <1>src/i18n.ts</1>.',
+              part2: 'Obczaj sobie mordko dokumentację i18next',
+            },
+          },
+        },
       },
     })
 }

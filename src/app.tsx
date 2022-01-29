@@ -18,6 +18,27 @@ export function App() {
       >
         {t('description.part2')}
       </a>
+      <hr />
+      <LanguageSelect />
     </main>
+  )
+}
+
+const languages = {
+  en: { nativeName: 'English' },
+  pl: { nativeName: 'Polski' },
+}
+
+function LanguageSelect() {
+  const { i18n } = useTranslation()
+
+  return (
+    <select onChange={event => i18n.changeLanguage(event.target.value)}>
+      {Object.entries(languages).map(([key, { nativeName }]) => (
+        <option key={key} value={key}>
+          {nativeName}
+        </option>
+      ))}
+    </select>
   )
 }
