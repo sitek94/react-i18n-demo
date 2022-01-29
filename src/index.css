@@ -1,13 +1,13 @@
 :root {
   --white: #fff;
-  --white-rgb: 255, 255, 255;
-  --dark: #1d1d1d;
-  --dark-rgb: 29, 29, 29;
+  --gray-700: #2f3237;
+  --gray-900: #1d1d1d;
+  --blue: cornflowerblue;
 
-  --foreground: #fff;
-  --foreground-rgb: 255, 255, 255;
-  --background: #1d1d1d;
-  --background-rgb: 29, 29, 29;
+  --foreground: var(--white);
+  --background: var(--gray-900);
+  --primary: var(--blue);
+  --code-background: var(--gray-700);
 }
 
 html {
@@ -24,6 +24,14 @@ h1 {
   font-size: 4rem;
 }
 
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
 button {
   color: var(--foreground);
   background: transparent;
@@ -38,5 +46,13 @@ button {
 button:hover,
 button:focus {
   outline: none;
-  background: rgba(var(--foreground-rgb), 0.1);
+  opacity: 0.8;
+}
+
+code {
+  padding: 0 0.2rem;
+  line-height: 1.5;
+  background-color: var(--code-background);
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
 }
