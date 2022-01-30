@@ -1,0 +1,21 @@
+{
+  "app_title": "React i18n Demo",
+  "about_initialization": {
+    "title": "About Initialization",
+    "description_1": "i18n is initialized in <1>src/i18n.ts</1> file.",
+    "description_2": "Visit i18next documentation to learn more"
+  },
+  "interpolation": {
+    "title": "Interpolation",
+    "description": "You can use interpolation to insert dynamic values into strings.",
+    "example": "Hello, {{name}}! How are you?",
+    "input_label": "Edit the name"
+  },
+  "plurals": {
+    "title": "Plurals",
+    "description": "There are \"special\" key suffixes that can be used to handle plurals. In English these are \"_zero\", \"_one\" and \"_other\".",
+    "example_one": "You have uploaded 1 reading.",
+    "example_other": "You have uploaded {{count}} readings.",
+    "example_zero": "You haven't uploaded any readings :("
+  }
+}

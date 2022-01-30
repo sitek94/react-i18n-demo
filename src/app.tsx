@@ -22,8 +22,8 @@ export function App() {
       <Main>
         <AboutInitialization />
         <Plurals />
-        <DateAndTime />
         <Interpolation />
+        <DateAndTime />
       </Main>
     </>
   )
