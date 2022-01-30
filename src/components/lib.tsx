@@ -33,3 +33,7 @@ export function Section({
     </section>
   )
 }
+
+export function Example({ children }: Props) {
+  return <div className="example">{children}</div>
+}

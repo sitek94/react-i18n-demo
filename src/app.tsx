@@ -2,9 +2,10 @@ import * as React from 'react'
 import { useTranslation } from 'react-i18next'
 
 import { LanguageSwitcher } from 'components/language-switcher'
-import { Header, Main, Navbar } from 'components/layout'
+import { Header, Main, Navbar } from 'components/lib'
 import { AboutInitialization } from 'sections/about-initialization'
 import { DateAndTime } from 'sections/date-and-time'
+import { Interpolation } from 'sections/interpolation'
 import { Plurals } from 'sections/plurals'
 
 export function App() {
@@ -22,6 +23,7 @@ export function App() {
         <AboutInitialization />
         <Plurals />
         <DateAndTime />
+        <Interpolation />
       </Main>
     </>
   )

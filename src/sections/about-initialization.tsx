@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { Trans, useTranslation } from 'react-i18next'
 
-import { Section } from 'components/section'
+import { Section } from 'components/lib'
 
 export function AboutInitialization() {
   const { t } = useTranslation()
