@@ -38,7 +38,7 @@ export function initI18n() {
     // 🤔 init is returning a promise. Maybe at some point it will be useful to
     // await the promise to make sure the i18n instance is ready.
     .init({
-      debug: true,
+      debug: import.meta.env.DEV,
       fallbackLng: 'en',
       interpolation: {
         escapeValue: false, // not needed for react as it escapes by default
