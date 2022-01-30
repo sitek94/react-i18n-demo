@@ -1,3 +1,9 @@
+# React i18n Demo ⚗️
+
+> 🚧 &nbsp; work in progress &nbsp;🚧
+
+## Resources
+
 - [tutorial](https://dev.to/adrai/how-to-properly-internationalize-a-react-application-using-i18next-3hdb)
 
 - https://github.com/i18next/react-i18next/blob/master/example/react/src/App.js
