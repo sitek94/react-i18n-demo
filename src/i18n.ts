@@ -18,14 +18,14 @@
 import { initReactI18next } from 'react-i18next'
 import i18n from 'i18next'
 import LanguageDetector from 'i18next-browser-languagedetector'
-import Backend from 'i18next-http-backend'
+import HttpApi from 'i18next-http-backend'
 
 export function initI18n() {
   i18n
     // load translation using http -> see /public/locales (i.e. https://github.com/i18next/react-i18next/tree/master/example/react/public/locales)
     // learn more: https://github.com/i18next/i18next-http-backend
     // want your translations to be loaded from a professional CDN? => https://github.com/locize/react-tutorial#step-2---use-the-locize-cdn
-    .use(Backend)
+    .use(HttpApi)
     // detect user language
     // learn more: https://github.com/i18next/i18next-browser-languageDetector
     .use(LanguageDetector)
@@ -42,6 +42,11 @@ export function initI18n() {
       fallbackLng: 'en',
       interpolation: {
         escapeValue: false, // not needed for react as it escapes by default
+      },
+      backend: {
+        // When using GH Pages the path is different, because the files are not served from the root.
+        // That's why we need to specify the path here.
+        loadPath: '/react-i18n-demo/locales/{{lng}}/{{ns}}.json',
       },
     })
 }
