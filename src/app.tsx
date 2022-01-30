@@ -1,44 +1,23 @@
-import { Trans, useTranslation } from 'react-i18next'
+import * as React from 'react'
+import { useTranslation } from 'react-i18next'
+
+import { LanguageSwitcher } from 'components/language-switcher'
+import { AboutInitialization } from 'sections/about-initialization'
+import { Plurals } from 'sections/plurals'
 
 export function App() {
   const { t } = useTranslation()
 
   return (
-    <main>
-      <h1>React i18n Demo ⚗️</h1>
-      <p>
-        <Trans i18nKey="description.part1">
-          i18n is initialized in <code>src/i18n.ts</code> file.
-        </Trans>
-      </p>
-      <a
-        href="https://www.i18next.com/"
-        target="_blank"
-        rel="noreferrer noopener"
-      >
-        {t('description.part2')}
-      </a>
-      <hr />
-      <LanguageSelect />
-    </main>
-  )
-}
-
-const languages = {
-  en: { nativeName: 'English' },
-  pl: { nativeName: 'Polski' },
-}
-
-function LanguageSelect() {
-  const { i18n } = useTranslation()
-
-  return (
-    <select onChange={event => i18n.changeLanguage(event.target.value)}>
-      {Object.entries(languages).map(([key, { nativeName }]) => (
-        <option key={key} value={key}>
-          {nativeName}
-        </option>
-      ))}
-    </select>
+    <>
+      <header>
+        <h1>{t('app_title')} ⚗️</h1>
+      </header>
+      <LanguageSwitcher />
+      <main>
+        <AboutInitialization />
+        <Plurals />
+      </main>
+    </>
   )
 }
