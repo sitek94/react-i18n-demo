@@ -14,6 +14,7 @@
   --blue: cornflowerblue;
 
   --transition-all: all 0.3s ease-in-out;
+  --max-width: 70ch;
 
   --foreground: var(--white);
   --foreground-rgb: var(--white-rgb);
@@ -27,14 +28,32 @@
 }
 
 html {
-  max-width: 70ch;
   padding: 3em 1em;
-  margin: auto;
   font-family: Helvetica, arial, sans-serif;
   font-size: 1.25rem;
   line-height: 1.75;
   background: var(--background);
   color: var(--foreground);
+}
+
+header {
+  max-width: var(--max-width);
+  margin: auto;
+}
+
+nav {
+  padding: 1rem 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  position: sticky;
+  background: var(--background);
+  border-bottom: 1px solid rgba(var(--foreground-rgb), 0.1);
+}
+
+main {
+  max-width: var(--max-width);
+  margin: auto;
 }
 
 h1 {
@@ -92,17 +111,16 @@ code {
   monospace;
 }
 
+.container {
+  max-width: 70ch;
+  margin: auto;
+}
+
 section {
   padding: 3rem 0;
 }
 section:not(:last-child) {
   border-bottom: 1px solid rgba(var(--foreground-rgb), 0.1);
-}
-
-.language-switcher {
-  top: 1rem;
-  margin-top: 1rem;
-  position: sticky;
 }
 
 blockquote {
