@@ -10,3 +10,14 @@
 
  
 https://phrase.com/blog/posts/localizing-react-apps-with-i18next/#Basic_Translation_Messages
+
+## i18next-scanner -> i18next-parser
+
+The former doesn't support v4 JSON format, so we should migrate to the latter.
+
+https://github.com/ph1p/i18next-scanner-webpack/issues/15
+
+Long term solution would be to handle the translations using backend translations, as both projects mentioned above,
+are not actively maintained.
+
+https://www.i18next.com/how-to/extracting-translations#3-runtime-extraction

@@ -38,6 +38,7 @@ module.exports = {
           // Anything that does not start with a dot.
           [
             '^(components)(/.*|$)',
+            '^(locales)(/.*|$)',
             '^(sections)(/.*|$)',
             '^(utils)(/.*|$)',
             '^[^.]',
