@@ -25,6 +25,8 @@
     "button": {
       "text": "Następny error!",
       "image": "Bomba"
-    }
+    },
+    "description": "Możemy połączyć fallback keys z interpolacją, a nawet przetłumaczyć zmienne które interpolujemy!",
+    "example": "Mamy jakiś tam kod błędu: '{{errorCode}}', który mówi, że: '{{message}}', najsss!"
   }
 }
