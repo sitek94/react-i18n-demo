@@ -6,7 +6,7 @@
     "description_2":"Obczaj sobie mordko dokumentację i18next"
   },
   "plurals":{
-    "title":"Liczba Mnoga",
+    "title":"Pluralizacja",
     "description":"Do obsługi liczby mnogiej możemy wykorzystać sufiksy kluczy. W języku polskim są\n                to \"_zero\", \"_one\", \"_few\", \"_many\" oraz \"_other\" - co do tego ostatniego to nie jestem pewien kiedy jest używany ¯\\_(ツ)_/¯.",
     "count":"Count",
     "example_zero":"Nie dodano żadnych odczytów",
@@ -19,5 +19,12 @@
     "description":"Interpolacja jest używana do wstawiania dynamicznych wartości do tekstu.",
     "example":"Siema, {{name}}! Co tam słychać w wielkim świecie?",
     "input_label":"Edytuj imię"
+  },
+  "multiple_fallback_keys": {
+    "title": "Multiple Fallback Keys",
+    "button": {
+      "text": "Następny error!",
+      "image": "Bomba"
+    }
   }
 }

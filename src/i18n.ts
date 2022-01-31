@@ -40,6 +40,7 @@ export function initI18n() {
     .init({
       debug: import.meta.env.DEV,
       fallbackLng: 'en',
+      ns: ['translation', 'common'],
       interpolation: {
         escapeValue: false, // not needed for react as it escapes by default
       },

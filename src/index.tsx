@@ -12,7 +12,7 @@ initI18n()
 
 ReactDOM.render(
   <React.Suspense fallback={<OverlaySpinner />}>
-    <App /> ,
+    <App />
   </React.Suspense>,
   document.getElementById('root')
 )
