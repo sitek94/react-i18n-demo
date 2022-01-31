@@ -20,6 +20,7 @@ export function AboutInitialization() {
       >
         {t('about_initialization.description_2')}
       </a>
+      <p>{t('about_initialization.webhook_test')}</p>
     </Section>
   )
 }
