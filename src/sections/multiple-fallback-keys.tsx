@@ -33,6 +33,13 @@ export function MultipleFallbackKeys() {
         </span>
         {t('multiple_fallback_keys.button.text')}
       </button>
+      <p>{t('multiple_fallback_keys.description')}</p>
+      <Example>
+        {t('multiple_fallback_keys.example', {
+          errorCode,
+          message: t([`common:error.${errorCode}`, 'common:error.unspecific']),
+        })}
+      </Example>
     </Section>
   )
 }

@@ -24,6 +24,8 @@
     "button": {
       "text": "Next error, please!",
       "image": "Bomb"
-    }
+    },
+    "description": "We can combine multiple fallback keys with interpolation, and even translate the variables that are interpolated!",
+    "example": "So here's an error code: '{{errorCode}}', and it says: '{{message}}', nice huh?"
   }
 }
