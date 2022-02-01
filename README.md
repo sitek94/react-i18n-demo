@@ -2,6 +2,12 @@
 
 > 🚧 &nbsp; work in progress &nbsp;🚧
 
+## Localization service
+
+As of now I'm using [POEditor](https://www.poeditor.com/) as a localization service. Why? Well, it's a tool that is used
+in my day job's project, so I want to explore its possibilities. However, in the future I'm definitely going to check 
+out [locize](https://locize.com/), which is a service created by the authors of [i18next](https://www.i18next.com/).
+
 ## Resources
 
 ### Common Mistakes
