@@ -29,12 +29,17 @@
 }
 
 html {
-  padding: 3em 1em;
+  position: relative;
   font-family: Helvetica, arial, sans-serif;
   font-size: 1.25rem;
   line-height: 1.75;
   background: var(--background);
   color: var(--foreground);
+}
+
+body {
+  margin: 0;
+  padding: 3em 1em;
 }
 
 header {
@@ -43,7 +48,8 @@ header {
 }
 
 nav {
-  padding: 1rem 0;
+  margin: 0 -1em;
+  padding: 1em;
   left: 0;
   top: 0;
   right: 0;
@@ -104,10 +110,10 @@ button:focus:not(:disabled) {
   color: var(--primary);
   border-color: var(--primary);
 }
-button:disabled {
-  cursor: not-allowed;
-  opacity: 0.75;
+button.selected {
+  background: rgba(var(--foreground-rgb), 0.2);
 }
+
 
 input {
   border: 1px solid var(--foreground);
@@ -154,8 +160,8 @@ section:not(:last-child) {
 .example {
   background: var(--background-800);
   border-left: 10px solid var(--background-600);
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
+  margin: 1.5em 0;
+  padding: 0.5em;
 }
 
 .example:before {
