@@ -7,7 +7,7 @@ export function Webhooks() {
   const { t } = useTranslation()
 
   return (
-    <Section title="Webhooks">
+    <Section title={t('webhooks.title')}>
       <p>{t('webhooks.text')}</p>
     </Section>
   )

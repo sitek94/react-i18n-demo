@@ -30,6 +30,7 @@
     "example": "So here's an error code: '{{errorCode}}', and it says: '{{message}}', nice huh?"
   },
   "webhooks": {
+    "title": "Webhooks",
     "text": "Testing Webhooks integration with PO Editor"
   }
 }
