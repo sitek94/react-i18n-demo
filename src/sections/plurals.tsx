@@ -5,7 +5,16 @@ import { Example, Section } from 'components/lib'
 
 export function Plurals() {
   const [count, setCount] = React.useState(0)
+  const [input, setInput] = React.useState('')
+
   const { t } = useTranslation()
+
+  // Update count whenever input changes and is not an empty string
+  React.useEffect(() => {
+    if (input) {
+      setCount(Number(input))
+    }
+  }, [input])
 
   return (
     <Section title={t('plurals.title')}>
@@ -16,8 +25,14 @@ export function Plurals() {
           {t('plurals.example', { count })}
         </span>
       </Example>
-      <button onClick={() => setCount(count + 1)}>+</button>
+      <input
+        type="text"
+        value={input}
+        placeholder={String(count)}
+        onChange={e => setInput(e.target.value)}
+      />
       <button onClick={() => setCount(count - 1)}>-</button>
+      <button onClick={() => setCount(count + 1)}>+</button>
     </Section>
   )
 }

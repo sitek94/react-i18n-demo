@@ -109,7 +109,7 @@ button:disabled {
   opacity: 0.75;
 }
 
-input[type="text"] {
+input {
   border: 1px solid var(--foreground);
   color: var(--foreground);
   background: transparent;
@@ -118,9 +118,17 @@ input[type="text"] {
   transition: var(--transition-all);
   outline: none;
 }
-input[type="text"]:hover,
-input[type="text"]:focus {
+input:hover,
+input:focus {
   border-color: var(--primary);
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+input[type="number"] {
+  -moz-appearance:textfield; /* Firefox */
 }
 
 code {
