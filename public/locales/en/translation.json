@@ -12,6 +12,8 @@
     "count": "Count:",
     "example_zero": "You haven't uploaded any readings :(",
     "example_one": "You have uploaded 1 reading.",
+    "example_few": "",
+    "example_many": "",
     "example_other": "You have uploaded {{count}} readings."
   },
   "interpolation": {
