@@ -12,7 +12,8 @@
     "example_zero":"Nie dodano żadnych odczytów",
     "example_one":"Dodano 1 odczyt",
     "example_few":"Dodano {{count}} odczyty",
-    "example_many":"Dodano {{count}} odczytów"
+    "example_many":"Dodano {{count}} odczytów",
+    "example_other":"Dodano {{count}} odczytu"
   },
   "interpolation":{
     "title":"Interpolacja",
