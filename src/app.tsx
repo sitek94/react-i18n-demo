@@ -7,6 +7,7 @@ import { AboutInitialization } from 'sections/about-initialization'
 import { Interpolation } from 'sections/interpolation'
 import { MultipleFallbackKeys } from 'sections/multiple-fallback-keys'
 import { Plurals } from 'sections/plurals'
+import { Webhooks } from 'sections/webhooks'
 
 export function App() {
   const { t } = useTranslation()
@@ -20,6 +21,7 @@ export function App() {
         <LanguageSwitcher />
       </Navbar>
       <Main>
+        <Webhooks />
         <AboutInitialization />
         <Plurals />
         <Interpolation />
