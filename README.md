@@ -4,7 +4,8 @@
 
 ## Localization Flow
 
-![React i18n Demo - Localization Flow](./docs/localization-flow-v1.png)
+![React i18n Demo - Localization Flow](./docs/localization-flow-v1-dark.png#gh-dark-mode-only)
+![React i18n Demo - Localization Flow](./docs/localization-flow-v1-light.png#gh-light-mode-only)
 
 ## Localization service
 

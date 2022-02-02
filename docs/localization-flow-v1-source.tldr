@@ -18,13 +18,13 @@
             "parentId": "page",
             "childIndex": 1,
             "point": [
-              632.485,
-              1480.525
+              632.49,
+              1480.53
             ],
             "rotation": 0,
             "text": "main",
             "style": {
-              "color": "lightGray",
+              "color": "gray",
               "size": "small",
               "isFilled": false,
               "dash": "draw",
@@ -100,12 +100,12 @@
             "childIndex": 1.3333333333333333,
             "point": [
               175.58,
-              1480.525
+              1480.53
             ],
             "rotation": 0,
             "text": "translations",
             "style": {
-              "color": "lightGray",
+              "color": "gray",
               "size": "small",
               "isFilled": false,
               "dash": "draw",
@@ -113,7 +113,7 @@
               "font": "script",
               "textAlign": "middle"
             },
-            "isLocked": true
+            "isLocked": false
           },
           "72bafebf-a433-4073-337b-71c40e64cc97": {
             "id": "72bafebf-a433-4073-337b-71c40e64cc97",
@@ -186,7 +186,7 @@
             "rotation": 0,
             "text": "We push changes\nto the main branch",
             "style": {
-              "color": "lightGray",
+              "color": "gray",
               "size": "small",
               "isFilled": false,
               "dash": "draw",
@@ -208,7 +208,7 @@
             "rotation": 0,
             "text": "New version is deployed\nonly with English translations",
             "style": {
-              "color": "lightGray",
+              "color": "gray",
               "size": "small",
               "isFilled": false,
               "dash": "draw",
@@ -230,7 +230,7 @@
             "rotation": 0,
             "text": "Push to main triggers \"update-translations\"\njob, which forcefully updates the \ntranslations branch\n ",
             "style": {
-              "color": "lightGray",
+              "color": "gray",
               "size": "small",
               "isFilled": false,
               "dash": "draw",
@@ -363,12 +363,12 @@
             "childIndex": 1.1666666666666667,
             "point": [
               992.39,
-              1480.5249999999999
+              1480.52
             ],
             "rotation": 0,
             "text": "gh-pages",
             "style": {
-              "color": "lightGray",
+              "color": "gray",
               "size": "small",
               "isFilled": false,
               "dash": "draw",
@@ -376,7 +376,7 @@
               "font": "script",
               "textAlign": "middle"
             },
-            "isLocked": true
+            "isLocked": false
           },
           "ab6c19ae-af9e-40e2-202c-11d0ef269b1d": {
             "id": "ab6c19ae-af9e-40e2-202c-11d0ef269b1d",
@@ -596,7 +596,7 @@
             "rotation": 0,
             "text": "PO Editor is listening to changes \non translations branch, so when \nit gets updated, it imports all the \nterms and translations",
             "style": {
-              "color": "lightGray",
+              "color": "gray",
               "size": "small",
               "isFilled": false,
               "dash": "draw",
@@ -676,7 +676,7 @@
             "rotation": 0,
             "text": "When the translations \nare ready, they're exported\nwhich means that the files are \npushed to translations branch",
             "style": {
-              "color": "lightGray",
+              "color": "gray",
               "size": "small",
               "isFilled": false,
               "dash": "draw",
@@ -757,7 +757,7 @@
             "rotation": 0,
             "text": "We open* a PR from translations \nto the main branch",
             "style": {
-              "color": "lightGray",
+              "color": "gray",
               "size": "small",
               "isFilled": false,
               "dash": "draw",
@@ -779,7 +779,7 @@
             "rotation": 0,
             "text": "*It should be opened automatically\nin the future. A simple workflow that's\ntriggered on push events from PO Editor ",
             "style": {
-              "color": "lightGray",
+              "color": "gray",
               "size": "small",
               "isFilled": false,
               "dash": "draw",
@@ -859,7 +859,7 @@
             "rotation": 0,
             "text": "Deploy with the rest of the\ntranslations",
             "style": {
-              "color": "lightGray",
+              "color": "gray",
               "size": "small",
               "isFilled": false,
               "dash": "draw",
@@ -1407,11 +1407,12 @@
         "selectedIds": [],
         "camera": {
           "point": [
-            281.36,
-            -1027.74
+            310.94,
+            -1226.44
           ],
           "zoom": 0.7278655148346015
-        }
+        },
+        "editingId": null
       }
     },
     "assets": {}
