@@ -14,6 +14,7 @@ export function Interpolation() {
       <label>
         <input
           type="text"
+          className="input"
           value={name}
           onChange={e => setName(e.target.value)}
           style={{ marginRight: '0.5rem' }}

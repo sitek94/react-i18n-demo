@@ -27,6 +27,7 @@ export function Plurals() {
       </Example>
       <input
         type="text"
+        className="input"
         value={input}
         placeholder={String(count)}
         onChange={e => setInput(e.target.value)}

@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next'
 import { LanguageSwitcher } from 'components/language-switcher'
 import { Header, Main, Navbar } from 'components/lib'
 import { AboutInitialization } from 'sections/about-initialization'
+import { DateFns } from 'sections/date-fns'
 import { Interpolation } from 'sections/interpolation'
 import { MultipleFallbackKeys } from 'sections/multiple-fallback-keys'
 import { Plurals } from 'sections/plurals'
@@ -24,6 +25,7 @@ export function App() {
         <Plurals />
         <Interpolation />
         <MultipleFallbackKeys />
+        <DateFns />
       </Main>
     </>
   )

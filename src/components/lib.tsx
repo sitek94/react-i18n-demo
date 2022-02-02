@@ -23,11 +23,13 @@ export function Main({ children }: Props) {
 export function Section({
   title,
   children,
+  className,
 }: {
   title: string
+  className?: string
 } & Props) {
   return (
-    <section>
+    <section className={className}>
       <h2>{title}</h2>
       {children}
     </section>

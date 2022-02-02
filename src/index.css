@@ -100,6 +100,7 @@ button {
   padding: 0.5rem 1rem;
   font-size: 1rem;
   font-family: serif;
+  text-transform: capitalize;
   cursor: pointer;
   transition: var(--transition-all);
 }
@@ -114,8 +115,21 @@ button.selected {
   background: rgba(var(--foreground-rgb), 0.2);
 }
 
+.range-field {
+  border: 1px solid var(--foreground);
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-family: serif;
+}
 
-input {
+.range-field span {
+  display: inline-block;
+  margin-right: 0.5rem;
+  text-transform: capitalize;
+}
+
+
+.input {
   border: 1px solid var(--foreground);
   color: var(--foreground);
   background: transparent;
@@ -124,16 +138,16 @@ input {
   transition: var(--transition-all);
   outline: none;
 }
-input:hover,
-input:focus {
+.input:hover,
+.input:focus {
   border-color: var(--primary);
 }
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
 }
-input[type="number"] {
+.input[type="number"] {
   -moz-appearance:textfield; /* Firefox */
 }
 
@@ -170,4 +184,31 @@ section:not(:last-child) {
   line-height: 0.1em;
   margin-right: 0.25em;
   vertical-align: -0.4em;
+}
+
+pre code {
+  display: block;
+  white-space: pre;
+  max-width: 100%;
+  min-width: 100px;
+  padding: 1em;
+}
+
+.date-fns table {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+.date-fns table, th, td {
+  border: 1px solid var(--foreground);
+  border-collapse: collapse;
+}
+.date-fns th {
+  width: 55%;
+  padding: 0.5rem 0.5rem 0.5rem 0;
+  text-align: right;
+  font-weight: 400;
+  font-family: monospace;
+}
+.date-fns td {
+  padding-left: 0.5rem;
 }

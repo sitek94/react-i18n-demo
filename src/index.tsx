@@ -2,11 +2,11 @@ import './index.css'
 
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
+import { initI18n } from 'core/i18n'
 
 import { OverlaySpinner } from 'components/spinner'
 
 import { App } from './app'
-import { initI18n } from './i18n'
 
 initI18n()
 
