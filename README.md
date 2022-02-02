@@ -2,6 +2,10 @@
 
 > 🚧 &nbsp; work in progress &nbsp;🚧
 
+## Localization Flow
+
+![React i18n Demo - Localization Flow](./docs/localization-flow-v1.png)
+
 ## Localization service
 
 As of now I'm using [POEditor](https://www.poeditor.com/) as a localization service. Why? Well, it's a tool that is used
@@ -10,15 +14,20 @@ out [locize](https://locize.com/), which is a service created by the authors of 
 
 ## Resources
 
+### i18n
+
+- [Language Plural Rules](https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html)
+
+### Best Practices
+- [l10n and i18n Best Practices](https://www.infragistics.com/community/blogs/b/devtoolsguy/posts/l10n-and-i18n-best-practices)
+- [Translation keys: Naming and organizing](https://lokalise.com/blog/translation-keys-naming-and-organizing/)
+
 ### Common Mistakes
 - [i18n Mistakes - Word Puzzles](https://techbase.kde.org/Development/Tutorials/Localization/i18n_Mistakes#Pitfall_.232:_Word_Puzzles)
 - [Avoiding Common Internationalization Mistakes](https://mattermost.com/blog/avoiding-common-internationalization-mistakes/)
 - [Top Localization Mistakes to Avoid](https://harryclarktranslation.co.nz/top-localization-mistakes-to-avoid/)
 - [10 Common Mistakes in Software Localization](https://phrase.com/blog/posts/10-common-mistakes-in-software-localization/)
 
-### Best Practices
-- [l10n and i18n Best Practices](https://www.infragistics.com/community/blogs/b/devtoolsguy/posts/l10n-and-i18n-best-practices)
-- [Translation keys: Naming and organizing](https://lokalise.com/blog/translation-keys-naming-and-organizing/)
 
 ### Tools
 - [i18next](https://www.i18next.com/)
