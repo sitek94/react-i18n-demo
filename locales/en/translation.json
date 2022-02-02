@@ -12,9 +12,7 @@
         "count": "Count:",
         "example_zero": "You haven't uploaded any readings :(",
         "example_one": "You have uploaded 1 reading.",
-        "example_other": "You have uploaded {{count}} readings.",
-        "example_few": "__NO_TRANSLATE__",
-        "example_many": "__NO_TRANSLATE__"
+        "example_other": "You have uploaded {{count}} readings."
     },
     "interpolation": {
         "title": "Interpolation",
@@ -31,8 +29,7 @@
         "description": "We can combine multiple fallback keys with interpolation, and even translate the variables that are interpolated!",
         "example": "So here's an error code: '{{errorCode}}', and it says: '{{message}}', nice huh?"
     },
-    "webhooks": {
-        "text": "Testing Webhooks integration with PO Editor",
-        "title": "Webhooks"
+    "date-fns": {
+        "title": "date-fns and i18n"
     }
 }

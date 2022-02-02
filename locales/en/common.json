@@ -8,5 +8,8 @@
     "500": "Internal server error",
     "503": "Service unavailable",
     "504": "Gateway timeout"
-  }
+  },
+  "start": "start",
+  "stop": "stop",
+  "reset": "reset"
 }
