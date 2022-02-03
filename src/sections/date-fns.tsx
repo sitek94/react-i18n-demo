@@ -46,22 +46,24 @@ export function DateFns() {
       </pre>
 
       <table>
-        <tr>
-          <th>{`format(past, 'PPP')`}</th>
-          <td>{format(past, 'PPP')}</td>
-        </tr>
-        <tr>
-          <th>{`formatDistance(past, now)`}</th>
-          <td>{formatDistance(past, now)}</td>
-        </tr>
-        <tr>
-          <th>{`formatDistanceStrict(past, now)`}</th>
-          <td>{formatDistanceStrict(past, now)}</td>
-        </tr>
-        <tr>
-          <th>{`formatRelative(past, now)`}</th>
-          <td>{formatRelative(past, now)}</td>
-        </tr>
+        <tbody>
+          <tr>
+            <th>{`format(past, 'PPP')`}</th>
+            <td>{format(past, 'PPP')}</td>
+          </tr>
+          <tr>
+            <th>{`formatDistance(past, now)`}</th>
+            <td>{formatDistance(past, now)}</td>
+          </tr>
+          <tr>
+            <th>{`formatDistanceStrict(past, now)`}</th>
+            <td>{formatDistanceStrict(past, now)}</td>
+          </tr>
+          <tr>
+            <th>{`formatRelative(past, now)`}</th>
+            <td>{formatRelative(past, now)}</td>
+          </tr>
+        </tbody>
       </table>
 
       <button onClick={() => setStopped(!stopped)}>
