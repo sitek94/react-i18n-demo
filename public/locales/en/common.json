@@ -11,5 +11,6 @@
   },
   "start": "start",
   "stop": "stop",
-  "reset": "reset"
+  "reset": "reset",
+  "speed": "speed"
 }

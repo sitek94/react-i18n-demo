@@ -13,6 +13,9 @@ As of now I'm using [POEditor](https://www.poeditor.com/) as a localization serv
 in my day job's project, so I want to explore its possibilities. However, in the future I'm definitely going to check 
 out [locize](https://locize.com/), which is a service created by the authors of [i18next](https://www.i18next.com/).
 
+[POEditor guide](./docs/poeditor.md) - in this file I try to document any issues that I've encountered
+when using POEditor and potentially how to solve them.
+
 ## Resources
 
 ### i18n
