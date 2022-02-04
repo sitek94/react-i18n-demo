@@ -21,3 +21,7 @@
 One of the benefits, that I see in using keys, as opposed to fallback values, is that we could keep the translations 
 files separate from the source code. There would be no need to redeploy the app when there are some changes in
 the translations.
+
+## ICU vs i18next JSON format
+
+https://gitlab.com/kachkaev/website-frontend/-/tree/master
