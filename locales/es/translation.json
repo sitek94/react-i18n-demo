@@ -10,12 +10,16 @@
         "title": "Plurales",
         "description": "Existen sufijos clave \"especiales\" que pueden utilizarse para tratar los plurales. En inglés son \"_zero\", \"_one\" y \"_other\".",
         "count": "Cuenta:",
-        "example": "{count, plural, =0 {No has subido ninguna lectura...} =1 {Has subido 1 lectura.} many {Has subido # lecturas.} other {Has subido # lecturas.}}"
+        "example_zero": "No has subido ninguna lectura :(",
+        "example_one": "Has subido 1 lectura.",
+        "example_other": "Has subido {{count}} lecturas.",
+        "example_few": "__NO_TRANSLATE__",
+        "example_many": "Has subido {{count}} lecturas."
     },
     "interpolation": {
         "title": "Interpolación",
         "description": "Puede utilizar la interpolación para insertar valores dinámicos en las cadenas.",
-        "example": "¡Hola, {name}! ¿Cómo estás?",
+        "example": "¡Hola, {{name}}! ¿Cómo estás?",
         "input_label": "Editar el nombre"
     },
     "multiple_fallback_keys": {
@@ -25,6 +29,10 @@
             "image": "Bomba"
         },
         "description": "Podemos combinar múltiples claves de retroceso con la interpolación, ¡e incluso traducir las variables que se interpolan!",
-        "example": "Así que aquí hay un código de error: \"{errorCode}\", y dice: \"{message}\", bonito ¿eh?"
+        "example": "Así que aquí hay un código de error: '{{errorCode}}', y dice: '{{message}}', bonito ¿eh?"
+    },
+    "webhooks": {
+        "text": "Probar la integración de Webhooks con el editor de PO",
+        "title": "Webhooks"
     }
 }
