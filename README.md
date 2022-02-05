@@ -18,6 +18,11 @@ out [locize](https://locize.com/), which is a service created by the authors of 
 ### i18n
 
 - [Language Plural Rules](https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html)
+- [Percentage](https://docs.microsoft.com/en-us/globalization/locale/number-formatting#the-placement-of-the-percent-sign-) -
+  It can be written several ways: 98%, 98 %, 98 pct, %98. Thus you should never assume that you can hard-code the percent sign.
+- [Units of measurement](https://docs.microsoft.com/en-us/globalization/locale/units-of-measurement) - 
+  > In 1999, the NASA Mars Climate Orbiter was lost on entry to the Martian atmosphere because of "the failed translation
+  > of English units into metric units" - [source](https://science.ksc.nasa.gov/mars/msp98/news/mco991110.html)
 
 ### Best Practices
 - [l10n and i18n Best Practices](https://www.infragistics.com/community/blogs/b/devtoolsguy/posts/l10n-and-i18n-best-practices)
