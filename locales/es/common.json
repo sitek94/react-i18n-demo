@@ -1,1 +1,15 @@
-{}
+{
+    "error": {
+        "400": "Mala petición",
+        "401": "No autorizado",
+        "403": "Prohibido",
+        "404": "No se ha encontrado",
+        "500": "Error interno del servidor",
+        "503": "Servicio no disponible",
+        "504": "Tiempo de espera de la pasarela",
+        "unspecific": "Algo salió mal"
+    },
+    "reset": "reiniciar",
+    "start": "iniciar",
+    "stop": "detener"
+}
