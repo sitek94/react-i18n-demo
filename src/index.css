@@ -194,21 +194,21 @@ pre code {
   padding: 1em;
 }
 
-.date-fns table {
+.dateFns table {
   margin-bottom: 1rem;
   width: 100%;
 }
-.date-fns table, th, td {
+.dateFns table, th, td {
   border: 1px solid var(--foreground);
   border-collapse: collapse;
 }
-.date-fns th {
+.dateFns th {
   width: 55%;
   padding: 0.5rem 0.5rem 0.5rem 0;
   text-align: right;
   font-weight: 400;
   font-family: monospace;
 }
-.date-fns td {
+.dateFns td {
   padding-left: 0.5rem;
 }

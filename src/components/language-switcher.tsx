@@ -15,7 +15,7 @@ const languages = {
   es: {
     nativeName: '🇪🇸 Español',
     locale: es,
-  }
+  },
 }
 
 export function LanguageSwitcher() {
