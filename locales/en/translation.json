@@ -1,10 +1,10 @@
 {
-    "app_title": "React i18n Demo",
-    "about_initialization": {
+    "appTitle": "React i18n Demo",
+    "aboutInitialization": {
         "title": "About Initialization",
-        "description_1": "i18n is initialized in <1>src/i18n.ts</1> file.",
-        "description_2": "Visit i18next documentation to learn more",
-        "webhook_test": "They see me rollin', they testin'..."
+        "description1": "i18n is initialized in <1>src/i18n.ts</1> file.",
+        "description2": "Visit i18next documentation to learn more",
+        "webhookTest": "They see me rollin', they testin'..."
     },
     "plurals": {
         "title": "Plurals",
@@ -18,9 +18,9 @@
         "title": "Interpolation",
         "description": "You can use interpolation to insert dynamic values into strings.",
         "example": "Hello, {{name}}! How are you?",
-        "input_label": "Edit the name"
+        "inputLabel": "Edit the name"
     },
-    "multiple_fallback_keys": {
+    "multipleFallbackKeys": {
         "title": "Multiple Fallback Keys",
         "button": {
             "text": "Next error, please!",
@@ -29,7 +29,7 @@
         "description": "We can combine multiple fallback keys with interpolation, and even translate the variables that are interpolated!",
         "example": "So here's an error code: '{{errorCode}}', and it says: '{{message}}', nice huh?"
     },
-    "date-fns": {
+    "dateFns": {
         "title": "date-fns and i18n"
     }
 }
