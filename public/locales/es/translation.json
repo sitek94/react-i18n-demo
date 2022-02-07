@@ -9,11 +9,10 @@
     "plurals": {
         "title": "Plurales",
         "description": "Existen sufijos clave \"especiales\" que pueden utilizarse para tratar los plurales. En inglés son \"_zero\", \"_one\" y \"_other\".",
-        "count": "Cuenta:",
         "example_zero": "No has subido ninguna lectura :(",
         "example_one": "Has subido 1 lectura.",
         "example_other": "Has subido {{count}} lecturas.",
-        "example_few": "__NO_TRANSLATE__",
+        "example_few": "__NO_TRANSLATION__",
         "example_many": "Has subido {{count}} lecturas."
     },
     "interpolation": {
