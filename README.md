@@ -7,6 +7,9 @@
 ![React i18n Demo - Localization Flow](./docs/localization-flow-v1-dark.png#gh-dark-mode-only)
 ![React i18n Demo - Localization Flow](./docs/localization-flow-v1-light.png#gh-light-mode-only)
 
+Note, that for your use case, it's probably not optimal to deploy first without translations ready, and deploy again.
+In this case, however, I don't consider it a big deal.
+
 ## Localization service
 
 As of now I'm using [POEditor](https://www.poeditor.com/) as a localization service. Why? Well, it's a tool that is used

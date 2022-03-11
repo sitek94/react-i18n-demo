@@ -9,6 +9,8 @@ import { Interpolation } from 'sections/interpolation'
 import { MultipleFallbackKeys } from 'sections/multiple-fallback-keys'
 import { Plurals } from 'sections/plurals'
 
+import { CustomFormatters } from './sections/custom-formatters'
+
 export function App() {
   const { t } = useTranslation()
 
@@ -26,6 +28,7 @@ export function App() {
         <Interpolation />
         <MultipleFallbackKeys />
         <DateFns />
+        <CustomFormatters />
       </Main>
     </>
   )

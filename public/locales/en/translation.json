@@ -6,6 +6,10 @@
         "webhookTest": "They see me rollin', they testin'..."
     },
     "appTitle": "React i18n Demo",
+    "customFormatters": {
+        "title": "Custom Formatters",
+        "description": "Custom formatters are defined in `src/utils/string-formatters` and are added to the i18next instance in `src/core/i18n.ts`."
+    },
     "dateFns": {
         "title": "date-fns and i18n"
     },

@@ -25,7 +25,7 @@ export function LanguageSwitcher() {
     <div className="language-switcher">
       {Object.entries(languages).map(([language, { nativeName, locale }]) => {
         const isSelected = language === i18n.resolvedLanguage
-        console.log({ language, resolved: i18n.resolvedLanguage })
+
         return (
           <button
             type="button"

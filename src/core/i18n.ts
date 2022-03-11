@@ -17,11 +17,14 @@
 
 import { initReactI18next } from 'react-i18next'
 import i18n from 'i18next'
+import i18next from 'i18next'
 import LanguageDetector from 'i18next-browser-languagedetector'
 import HttpApi from 'i18next-http-backend'
 
-export function initI18n() {
-  i18n
+import { stringFormatters } from '../utils/string-formatters'
+
+export async function initI18n() {
+  await i18n
     // load translation using http -> see /public/locales (i.e. https://github.com/i18next/react-i18next/tree/master/example/react/public/locales)
     // learn more: https://github.com/i18next/i18next-http-backend
     // want your translations to be loaded from a professional CDN? => https://github.com/locize/react-tutorial#step-2---use-the-locize-cdn
@@ -37,7 +40,8 @@ export function initI18n() {
     // init i18next
     // for all options read: https://www.i18next.com/overview/configuration-options
     .init({
-      debug: import.meta.env.DEV,
+      // debug: import.meta.env.DEV,
+      supportedLngs: ['en', 'es', 'pl'],
       fallbackLng: 'en',
       ns: ['translation', 'common'],
       interpolation: {
@@ -49,4 +53,8 @@ export function initI18n() {
         loadPath: '/react-i18n-demo/locales/{{lng}}/{{ns}}.json',
       },
     })
+
+  for (const [name, fn] of Object.entries(stringFormatters)) {
+    i18next.services.formatter?.add(name, fn)
+  }
 }
