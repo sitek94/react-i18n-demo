@@ -6,6 +6,10 @@
         "webhookTest": "Me ven rodando, odian."
     },
     "appTitle": "React i18n Demo",
+    "customFormatters": {
+        "description": "",
+        "title": ""
+    },
     "dateFns": {
         "title": "date-fns y i18n"
     },
