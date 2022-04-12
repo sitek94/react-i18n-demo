@@ -6,6 +6,10 @@
         "webhookTest": "Widzą jak się wożę, testują..."
     },
     "appTitle": "React i18n Demko",
+    "customFormatters": {
+        "description": "",
+        "title": ""
+    },
     "dateFns": {
         "title": "data-fns i i18n"
     },
