@@ -1,4 +1,4 @@
-# React i18n Demo ⚗️
+Test
 
 > 🚧 &nbsp; work in progress &nbsp;🚧
 
