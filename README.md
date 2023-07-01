@@ -1,6 +1,6 @@
 # React i18n Demo ⚗️
 
-> 🚧 &nbsp; work in progress &nbsp;🚧
+A demo project for testing the integration of i18n localization in a React application.
 
 ## Localization Flow
 
